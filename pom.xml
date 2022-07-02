@@ -39,7 +39,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.moribus</groupId>
     <artifactId>ImageOnMap</artifactId>
-    <version>4.2.2</version>
+    <version>4.3.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -59,7 +59,7 @@
                     <artifactSet>
                         <includes>
                             <include>fr.zcraft:quartzlib</include>
-                            <include>org.bstats:bstats-bukkit</include>
+                            <include>org.bstats:*</include>
                         </includes>
                     </artifactSet>
                     <relocations>
@@ -134,12 +134,12 @@
         <dependency>
             <groupId>fr.zcraft</groupId>
             <artifactId>quartzlib</artifactId>
-            <version>0.0.6</version>
+            <version>0.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.bstats</groupId>
             <artifactId>bstats-bukkit</artifactId>
-            <version>1.8</version>
+            <version>3.0.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
