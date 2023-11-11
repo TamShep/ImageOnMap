@@ -1,4 +1,4 @@
-ImageOnMap
+ImageOnMapa
 ==========
 
 Repo for ImageOnMap, a bukkit plugin.
