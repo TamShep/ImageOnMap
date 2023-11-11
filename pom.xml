@@ -110,12 +110,12 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        <id>spigot-repo</id>
+        <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>zdevelopers-quartzlib</id>
-            <url>https://maven.zcraft.fr/QuartzLib</url>
+        <id>QuartzLib</id>
+        <url>https://maven.zcraft.fr/QuartzLib</url>
         </repository>
 
         <!-- bStats -->
@@ -132,9 +132,9 @@
             <version>1.13.2-R0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>fr.zcraft</groupId>
-            <artifactId>quartzlib</artifactId>
-            <version>0.1.1</version>
+        <groupId>fr.zcraft</groupId>
+        <artifactId>quartzlib</artifactId>
+        <version>0.0.3</version>
         </dependency>
         <dependency>
             <groupId>org.bstats</groupId>
